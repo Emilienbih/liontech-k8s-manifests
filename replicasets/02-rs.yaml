@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: liontech-rs-2
+  name: emilien-rs-2
   labels:
     app: rs-2
 spec:
@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
       - name: rs-2
-        image: liontechacademy/liontechclass20:demo-v1
+        image: emilien5/testing1:demo-v1
+
         ports:
         - name: web
           containerPort:  80

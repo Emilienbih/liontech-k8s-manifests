@@ -2,13 +2,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "nginx-demo"
+  name: "ngnix-demo"
   namespace: qa
   labels:
-    app: "nginx-demo"
+    app: "ngnix-demo"
 spec:
   containers:
-  - name: nginx-demo
+  - name: "ngnix-demo"
     image: "emilien5/testing1:demo-v1"
     resources:
       limits:  #HPA -Horizontal port auto scaling
