@@ -6,14 +6,14 @@ metadata:
     name: nextcloud-lb
   name: nextcloudapp-social
 spec:
-  replicas: 5
+  replicas: 3
   template:
     metadata:
       labels:
         name: nextcloudapp
     spec:
       containers:
-      - image: liontechacademy/apps:nextcloud-v1.0.0
+      - image: emilien5/testing1:demo-v1
         name: nextcloudapp
         ports:
         - name: nextcloudapp

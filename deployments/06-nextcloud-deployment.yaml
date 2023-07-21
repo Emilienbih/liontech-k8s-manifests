@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ReplicationController
 metadata:
   labels:
-    name: nextcloudaku  get svcpp
+    name: nextcloudaku-get-svcpp
   name: nextcloudapp-social
 spec:
   replicas: 1
@@ -13,7 +13,7 @@ spec:
         name: nextcloudapp
     spec:
       containers:
-      - image: liontechacademy/apps:nextcloud-v1.0.0
+      - image: emilien5/testing1:demo-v1
         name: nextcloudapp
         ports:
         - name: nextcloudapp

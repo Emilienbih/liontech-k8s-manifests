@@ -3,7 +3,7 @@
    kind: Service
    metadata:
      name: qa
-     namespace: qa
+     namespace: default
    spec:
      selector:
        app: qa

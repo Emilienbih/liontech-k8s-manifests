@@ -23,7 +23,7 @@ spec:
 
       containers:
           - name: myjob
-            image: liontechacademy/liontechclass20:demo-v1
+            image: emilien5/testing1:demo-v1
             imagePullPolicy: IfNotPresent
             resources:
               requests:
